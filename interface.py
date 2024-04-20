@@ -6,8 +6,6 @@ class Overlay(tk.Tk):
         self._set_window_attrs()
         self._set_alpha()
 
-        # Load Assets
-        self.spr_test = tk.PhotoImage(file='res/banana.png')
     def _set_window_attrs(self):
         self.title("Overlay")
         self.geometry("400x400+100+100")
@@ -21,8 +19,9 @@ class Overlay(tk.Tk):
         self.canvas = tk.Canvas(self, bg="black")
         self.canvas.pack(side="top", fill="both", expand=True)
         self.canvas.config(highlightthickness=0)
-        
-        #self.canvas.create_image(self.pos_x,self.pos_y,image=self.spr_test)
+
+        self.spr_test = tk.PhotoImage(file='res/banana.png')
+        self.canvas.create_image(self.pos_x,self.pos_y,image=self.spr_test,anchor="nw")
 
         self.wm_attributes("-transparentcolor", "black")
     def run(self):
