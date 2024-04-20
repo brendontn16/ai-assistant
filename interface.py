@@ -1,5 +1,7 @@
 from tkinter import *
 import tkinter as tk
+from PIL import Image
+
 
 def getMeOut():
    exit()
@@ -7,9 +9,12 @@ def getMeOut():
 class Overlay(tk.Tk):
     def __init__(self, *a, **kw):
         tk.Tk.__init__(self, *a, **kw)
+        self._load_assets()
         self._set_window_attrs()
-        self._set_alpha()
+        self._draw()
 
+    def _load_assets(self):
+        self.spr_idle = tk.PhotoImage(file='res/yalloIdle.png')
 
     def _set_window_attrs(self):
         self.title("Overlay")
@@ -22,13 +27,12 @@ class Overlay(tk.Tk):
 
         self.pos_x = 500
         self.pos_y = 250
-    def _set_alpha(self):
+    def _draw(self):
         self.canvas = tk.Canvas(self, bg="green")
         self.canvas.pack(side="top", fill="both", expand=True)
         self.canvas.config(highlightthickness=0)
 
-        self.spr_test = tk.PhotoImage(file='res/yolloIdle.png')
-        self.canvas.create_image(self.pos_x,self.pos_y,image=self.spr_test,anchor="nw")
+        self.canvas.create_image(self.pos_x,self.pos_y,image=self.spr_idle,anchor="nw")
         B = Button(self.canvas, text ="Escape", command = getMeOut)
         B.place(x=self.pos_x-20,y=self.pos_y-10)
 
