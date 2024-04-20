@@ -1,5 +1,6 @@
 from tkinter import *
 import tkinter as tk
+screenOffset = 400
 
 def getMeOut():
    exit()
@@ -10,9 +11,12 @@ class Overlay(tk.Tk):
         self._set_window_attrs()
         self._set_alpha()
 
+
     def _set_window_attrs(self):
         self.title("Overlay")
-        self.geometry("400x400+500+200")
+        screenWidth = self.winfo_screenwidth() - screenOffset
+        screenHeight = self.winfo_screenheight() - screenOffset
+        self.geometry("400x400+{}+{}".format(screenWidth,screenHeight))
         self.focus_force()
         self.wm_attributes("-topmost", True)
         self.overrideredirect(True)
