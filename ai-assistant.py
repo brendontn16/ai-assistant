@@ -1,6 +1,16 @@
 import os
 import openai
-openai.api_key = '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'
+import tkinter as tk
+import pyautogui
+import pytesseract
+from PIL import Image
+pytesseract.pytesseract.tesseract_cmd = r'c:\Program Files\Tesseract-OCR\tesseract'
+screenshot = pyautogui.screenshot()
+img = Image.open('screenshot.png')
+
+print(pytesseract.image_to_string(Image.open('screenshot.png')))
+
+openai.api_key = 'sk-proj-gPVWyckcu4prtKjXMPTiT3BlbkFJ27f6ChhSvXGsB5qOUvdb'
 
 personality = [
     {"role": "system", "content": "You are a well mannered english butler who can pleasantly answer any questions"}
