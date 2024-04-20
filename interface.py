@@ -1,6 +1,9 @@
 from tkinter import *
 import tkinter as tk
 from PIL import Image, ImageTk
+from random import randrange, random
+from numpy import sign, sinc
+from math import sin, cos, pi
 
 sprites = { # Dictionary of all the sprites that can be loaded.
   "idle": 'res/yalloIdle.png',
@@ -16,9 +19,19 @@ def getMeOut():
 class Yallo(tk.Tk):
     def __init__(self, *a, **kw):
         tk.Tk.__init__(self, *a, **kw)
+
+        #Setting up some important variables that determines Yallo's position.
+        self.pos_x = 500
+        self.pos_y = 250
+
+
+
         self._load_assets() # Loads assets first (can be re-run)
         self._set_window_attrs() # Configures window
         self._draw() # Draws to the window
+
+        self._reset_target_position()
+        self._walk()
 
     def _load_assets(self):
         img = Image.open(sprites[sprite_index])
@@ -36,16 +49,31 @@ class Yallo(tk.Tk):
 
     def _set_window_attrs(self):
         self.title("Overlay")
-        screenWidth = self.winfo_screenwidth()
-        screenHeight = self.winfo_screenheight()
-        self.geometry("{}x{}+{}+{}".format(screenWidth, screenHeight, 0, 0))
+        self.screen_width = self.winfo_screenwidth()
+        self.screen_height = self.winfo_screenheight()
+        self.geometry("{}x{}+{}+{}".format(self.screen_width, self.screen_height, 0, 0))
         self.focus_force()
         self.wm_attributes("-topmost", True)
         self.overrideredirect(True)
 
-        self.pos_x = 500
-        self.pos_y = 250
-    
+    def _reset_target_position(self):
+        target_x = randrange(self.screen_width)
+        target_y = randrange(self.screen_height)
+        direction = (target_y - self.pos_y) / (target_x - self.pos_x)
+        self.dir_x = sin(direction)
+        self.dir_y = cos(direction)
+
+
+
+    def _walk(self):        
+        self.canvas.move(self.yallo,self.dir_x,self.dir_y)
+
+        self.pos_x += self.dir_x
+        self.pos_y += self.dir_y
+        
+        self.after(60,self._walk)
+
+
     def _draw(self):
         self.canvas = tk.Canvas(self, bg="green")
         self.canvas.pack(side="top", fill="both", expand=True)
@@ -63,7 +91,7 @@ class Yallo(tk.Tk):
         self.anim_index = (self.anim_index + 1) % len(self.anim_frames)
         self.canvas.itemconfig(self.yallo, image=self.anim_frames[self.anim_index])
         self.after(self.anim_delay, self.animate)
-
+        
     def run(self):
         self.mainloop()
     
