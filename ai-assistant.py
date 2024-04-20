@@ -1,6 +1,5 @@
 import os
 import openai
-openai.api_key = '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'
 
 personality = [
     {"role": "system", "content": "You are a well mannered english butler who can pleasantly answer any questions"}
