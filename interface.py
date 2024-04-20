@@ -24,16 +24,16 @@ class Overlay(tk.Tk):
         self.pos_x = 0
         self.pos_y = 0
     def _set_alpha(self):
-        self.canvas = tk.Canvas(self, bg="black")
+        self.canvas = tk.Canvas(self, bg="green")
         self.canvas.pack(side="top", fill="both", expand=True)
         self.canvas.config(highlightthickness=0)
 
-        self.spr_test = tk.PhotoImage(file='res/banana.png')
+        self.spr_test = tk.PhotoImage(file='res/yolloIdle.png')
         self.canvas.create_image(self.pos_x,self.pos_y,image=self.spr_test,anchor="nw")
         B = Button(self.canvas, text ="Escape", command = getMeOut)
         B.place(x=50,y=100)
 
-        self.wm_attributes("-transparentcolor", "black")
+        self.wm_attributes("-transparentcolor", "green")
     def run(self):
         self.mainloop()
     
