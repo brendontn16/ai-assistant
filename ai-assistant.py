@@ -6,9 +6,10 @@ import pytesseract
 from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = r'c:\Program Files\Tesseract-OCR\tesseract'
 screenshot = pyautogui.screenshot()
-screenshot.save('screenshot.png')
+screenshotFiltered = screenshot.convert('1')
+screenshotFiltered.save('screenshot.png')
 img = Image.open('screenshot.png')
-print(pytesseract.image_to_string(Image.open('test.png')))
+print(pytesseract.image_to_string(Image.open('screenshot.png')))
 
 openai.api_key = 'sk-proj-gPVWyckcu4prtKjXMPTiT3BlbkFJ27f6ChhSvXGsB5qOUvdb'
 
