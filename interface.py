@@ -1,4 +1,8 @@
+from tkinter import *
 import tkinter as tk
+
+def getMeOut():
+   exit()
 
 class Overlay(tk.Tk):
     def __init__(self, *a, **kw):
@@ -8,7 +12,7 @@ class Overlay(tk.Tk):
 
     def _set_window_attrs(self):
         self.title("Overlay")
-        self.geometry("400x400+100+100")
+        self.geometry("400x400+500+200")
         self.focus_force()
         self.wm_attributes("-topmost", True)
         self.overrideredirect(True)
@@ -22,6 +26,8 @@ class Overlay(tk.Tk):
 
         self.spr_test = tk.PhotoImage(file='res/banana.png')
         self.canvas.create_image(self.pos_x,self.pos_y,image=self.spr_test,anchor="nw")
+        B = Button(self.canvas, text ="Escape", command = getMeOut)
+        B.place(x=50,y=100)
 
         self.wm_attributes("-transparentcolor", "black")
     def run(self):
