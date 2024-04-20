@@ -1,5 +1,4 @@
 from tkinter import *
-from tkinter import messagebox
 import tkinter as tk
 
 # Variables
@@ -31,6 +30,9 @@ def shoutingTime():
     # window.geometry("300x100")
     # window.wm_attributes("-topmost",True)
     # window.wm_attributes('-alpha', 0.5)
+    window.config(borderwidth=0)
+    window.overrideredirect(1)
+    window.geometry("300x100+{}+{}".format(yOffset-100,xOffset-100))
 
     # Create text widget and specify size.
     friendSays = Text(window, height = 5, width = 52)
@@ -42,6 +44,7 @@ def shoutingTime():
     friendSays.pack()
     friendSays.insert(tk.END, Encouragement)
     friendSays.focus_force()
+    friendSays.after(5000,window.destroy)
 
 
 # Friend overlay
