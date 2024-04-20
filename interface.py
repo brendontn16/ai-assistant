@@ -31,10 +31,12 @@ class Yallo(tk.Tk):
         self._draw() # Draws to the window
 
         self._reset_target_position()
-        self._walk()
+        self._tick()
 
     def _load_assets(self):
         img = Image.open(sprites[sprite_index])
+        self.sprite_width = img.width
+        self.sprite_height = img.height
         self.anim_frames = []
         self.anim_index = 0
         self.anim_delay = 50
@@ -57,22 +59,26 @@ class Yallo(tk.Tk):
         self.overrideredirect(True)
 
     def _reset_target_position(self):
-        target_x = randrange(self.screen_width)
-        target_y = randrange(self.screen_height)
-        direction = (target_y - self.pos_y) / (target_x - self.pos_x)
+        self.target_x = randrange(self.screen_width)
+        self.target_y = randrange(self.screen_height)
+        direction = (self.target_y - self.pos_y) / (self.target_x - self.pos_x) * 180 / pi
         self.dir_x = sin(direction)
         self.dir_y = cos(direction)
 
+        self.after(6000,self._stop_walking)
+        self.after(30000,self._reset_target_position)
 
+    def _tick(self):   
+        if ((self.pos_x + self.dir_x > self.screen_width - self.sprite_width) | (self.pos_x + self.dir_x < 0) | (self.pos_y + self.dir_y > self.screen_height - self.sprite_height) | (self.pos_y + self.dir_y < 0) == False):
+            self.pos_x += self.dir_x
+            self.pos_y += self.dir_y
+            self.canvas.moveto(self.yallo,self.pos_x,self.pos_y)
+        else:
+            self._reset_target_position()
+        self.after(6,self._tick)
 
-    def _walk(self):        
-        self.canvas.move(self.yallo,self.dir_x,self.dir_y)
-
-        self.pos_x += self.dir_x
-        self.pos_y += self.dir_y
-        
-        self.after(60,self._walk)
-
+    def _stop_walking(self):
+        self.dir_x, self.dir_y = 0, 0
 
     def _draw(self):
         self.canvas = tk.Canvas(self, bg="green")
