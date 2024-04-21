@@ -4,47 +4,33 @@ import tkinter as tk
 # Variables
 xOffset = 600
 yOffset = 600
+messageDelay = 5000
+Encouragement = """You're not being productive"""
 
 # End Program
 def getMeOut():
    exit()
 
-# Attempting to close window after delay
-# async def talk():
-#     window = tk.Tk()
-#     window.title("FriendSpeak")
-#     window.geometry("300x300")
-#     top_window = tk.Toplevel(window)
-#     top_window.title("Top Window")
-#     top_window.geometry("200x200")
-#     top_window.wm_attributes("-topmost",True)
-#     top_window.wm_attributes('-alpha',0.1)
-#     await asyncio.sleep(5)
-#     window.destroy()
-
 # Initiates talking when button is pressed
 def shoutingTime():
-    print("AHH")
     window = tk.Tk()
-    # window.title("FriendSpeak")
-    # window.geometry("300x100")
-    # window.wm_attributes("-topmost",True)
-    # window.wm_attributes('-alpha', 0.5)
+    window.wm_attributes("-topmost",True)
+    window.wm_attributes('-alpha', 0.95)
     window.config(borderwidth=0)
     window.overrideredirect(1)
-    window.geometry("300x100+{}+{}".format(yOffset-100,xOffset-100))
+    window.geometry("500x100+{}+{}".format(xOffset-210,yOffset-120))
 
     # Create text widget and specify size.
     friendSays = Text(window, height = 5, width = 52)
+    friendSays.configure(font = ("Comic Sans MS", 14, "bold"), wrap=WORD)
     
     # Friend chat window
     chatTitle = Label(window, text = "Friend Says")
-    Encouragement = """You're not being productive"""
     chatTitle.pack()
     friendSays.pack()
     friendSays.insert(tk.END, Encouragement)
     friendSays.focus_force()
-    friendSays.after(5000,window.destroy)
+    friendSays.after(messageDelay,window.destroy)
 
 
 # Friend overlay
