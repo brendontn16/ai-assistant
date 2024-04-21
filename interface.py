@@ -6,11 +6,13 @@ from math import sin, cos, pi
 from tts import text_to_speech
 from sys import exit
 from win32gui import GetWindowText, GetForegroundWindow
+from aiassistant import respond
 
 # Constants to let Yallo know not to go over the edge (it's his hitbox in a way)
 sprite_width, sprite_height = 160, 160
 
-print(GetWindowText(GetForegroundWindow()))
+response = respond(GetWindowText(GetForegroundWindow()))
+print(response)
 
 # Variables
 messageDelay = 5000
