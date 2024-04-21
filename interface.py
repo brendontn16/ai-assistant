@@ -31,7 +31,7 @@ def shoutingTime():
     window.wm_attributes('-alpha', 0.95)
     window.config(borderwidth=0)
     window.overrideredirect(1)
-    window.geometry("500x100+{}+{}".format(xOffset-210,yOffset-120))
+    window.geometry("500x100+{}+{}".format(round(friend.pos_x),round(friend.pos_y)))
 
     # Create text widget and specify size.
     friendSays = Text(window, height = 5, width = 52)
@@ -166,7 +166,8 @@ class Yallo(tk.Tk):
     def run(self):
         self.mainloop()
     
-# driver code
+# Run it all. We create an object for Yallo so his variables can be referenced for tts to work
+# Also Yallo is indeed your friend. :)
 if __name__ == "__main__":
     friend = Yallo()
     friend.run()
