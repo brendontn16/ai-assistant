@@ -1,12 +1,7 @@
 from tkinter import *
 import tkinter as tk
-<<<<<<< Updated upstream
 from PIL import Image
 from random import randrange
-=======
-from PIL import Image, ImageTk
-from random import randrange, random
->>>>>>> Stashed changes
 from math import sin, cos, pi
 from tts import text_to_speech
 from sys import exit
@@ -17,7 +12,7 @@ sprite_width, sprite_height = 160, 160
 
 # Variables
 messageDelay = 5000
-Encouragement = """I fucking hate gaming laptops."""
+Encouragement = """Do some work."""
 
 # End Program
 def getMeOut():
@@ -25,8 +20,6 @@ def getMeOut():
 
 # Initiates talking when button is pressed
 def shoutingTime():
-    print(text_to_speech(Encouragement))
-
     window = tk.Tk()
     window.wm_attributes("-topmost",True)
     window.wm_attributes('-alpha', 0.95)
@@ -130,8 +123,10 @@ class Yallo(tk.Tk):
         self.counter += 1
         # Bad solution to the problem of timing, but I don't have time to redo the movement code
         if (self.counter % 5000 == 0):
-            print(GetWindowText(GetForegroundWindow()))
-
+            task = GetWindowText(GetForegroundWindow())
+            print(task)
+            if (task.find("YouTube") != -1):
+                shoutingTime()
 
 
         if ((self.pos_x + self.dir_x > self.screen_width - sprite_width) | (self.pos_x + self.dir_x < 0) | (self.pos_y + self.dir_y > self.screen_height - sprite_height) | (self.pos_y + self.dir_y < 0) == False):
@@ -162,8 +157,8 @@ class Yallo(tk.Tk):
         Escape.place(x=20, y=10)
 
         # Temp button for testing chat functionality
-        T = Button(self.canvas, text ="Talk", command = shoutingTime)
-        T.place(x=10,y=100)
+        # T = Button(self.canvas, text ="Talk", command = shoutingTime)
+        # T.place(x=10,y=100)
 
         self.wm_attributes("-transparentcolor", "green")
     
