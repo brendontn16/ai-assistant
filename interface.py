@@ -6,11 +6,15 @@ from numpy import sign, sinc
 from math import sin, cos, pi
 
 sprites = { # Dictionary of all the sprites that can be loaded.
-  "idle": 'res/yalloIdle.png',
-  "yap": 'res/yalloYap.gif',
+  "idle_l": 'res/yalloIDLE.gif',
+  "yap_l": 'res/yalloYAP.gif',
+  "walk_l": 'res/yalloWALK.gif',
+  "idle_r": 'res/yalloIDLE_R.gif',
+  "yap_r": 'res/yalloYAP_R.gif',
+  "walk_r": 'res/yalloWALK_R.gif',
   "banana": 'res/banana.png',
 }
-sprite_index = "yap" #Current sprite
+
 
 def getMeOut():
    exit()
@@ -23,6 +27,8 @@ class Yallo(tk.Tk):
         #Setting up some important variables that determines Yallo's position.
         self.pos_x = 500
         self.pos_y = 250
+        self.sprite_index = "idle_l" #Current sprite
+        self.facing = 0
 
 
 
@@ -34,7 +40,7 @@ class Yallo(tk.Tk):
         self._tick()
 
     def _load_assets(self):
-        img = Image.open(sprites[sprite_index])
+        img = Image.open(sprites[self.sprite_index])
         self.sprite_width = img.width
         self.sprite_height = img.height
         self.anim_frames = []
@@ -42,9 +48,9 @@ class Yallo(tk.Tk):
         self.anim_delay = 50
         if img.format == "GIF":
             for i in range(img.n_frames):
-                self.anim_frames.append(tk.PhotoImage(file = sprites[sprite_index], format = f"gif -index {i}"))
+                self.anim_frames.append(tk.PhotoImage(file = sprites[self.sprite_index], format = f"gif -index {i}"))
         elif img.format == "PNG":
-            self.anim_frames.append(tk.PhotoImage(file = sprites[sprite_index]))
+            self.anim_frames.append(tk.PhotoImage(file = sprites[self.sprite_index]))
         else:
             self.anim_frames.append(tk.PhotoImage(file = sprites["banana"]))
 
@@ -65,8 +71,17 @@ class Yallo(tk.Tk):
         self.dir_x = sin(direction)
         self.dir_y = cos(direction)
 
-        self.after(6000,self._stop_walking)
-        self.after(30000,self._reset_target_position)
+        if (self.dir_x > 0):
+            self.facing = 0
+            self.sprite_index = "walk_l"
+            self._load_assets()
+        else:
+            self.facing = 1
+            self.sprite_index = "walk_r"
+            self._load_assets()
+
+        self.after(600,self._stop_walking)
+        self.after(3000,self._reset_target_position)
 
     def _tick(self):   
         if ((self.pos_x + self.dir_x > self.screen_width - self.sprite_width) | (self.pos_x + self.dir_x < 0) | (self.pos_y + self.dir_y > self.screen_height - self.sprite_height) | (self.pos_y + self.dir_y < 0) == False):
@@ -79,6 +94,11 @@ class Yallo(tk.Tk):
 
     def _stop_walking(self):
         self.dir_x, self.dir_y = 0, 0
+        if self.facing == 0:
+            self.sprite_index = "idle_l"
+        else:
+            self.sprite_index = "idle_r"
+        self._load_assets()
 
     def _draw(self):
         self.canvas = tk.Canvas(self, bg="green")
@@ -89,7 +109,7 @@ class Yallo(tk.Tk):
         self.animate()
         
         B = Button(self.canvas, text ="Escape", command = getMeOut)
-        B.place(x=self.pos_x-20, y=self.pos_y-10)
+        B.place(x=20, y=10)
 
         self.wm_attributes("-transparentcolor", "green")
     
