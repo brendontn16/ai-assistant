@@ -1,19 +1,18 @@
 from tkinter import *
 import tkinter as tk
-from PIL import Image, ImageTk
-from random import randrange, random
-from numpy import sign, sinc
+from PIL import Image
+from random import randrange
 from math import sin, cos, pi
+from tts import text_to_speech
 
 # Constants to let Yallo know not to go over the edge (it's his hitbox in a way)
 sprite_width, sprite_height = 160, 160
-
 
 # Variables
 xOffset = 600
 yOffset = 600
 messageDelay = 5000
-Encouragement = """You're not being productive"""
+Encouragement = """I fucking hate gaming laptops."""
 
 # End Program
 def getMeOut():
@@ -40,6 +39,13 @@ def shoutingTime():
     friendSays.focus_force()
     friendSays.after(messageDelay,window.destroy)
 
+    if (friend.facing == 0):
+        friend.sprite_index = "yap_l"
+    else:
+        friend.sprite_index = "yap_r"
+
+    text_to_speech(Encouragement)
+
 
 # Friend overlay
 
@@ -54,7 +60,7 @@ class Yallo(tk.Tk):
         self.sprite_index = "idle_l"    #Starting sprite
         self.facing = 0                 #0 for left, 1 for right
         self.anim_index = 0             #Basically a timer that determines the current frame in the gif.
-        self.anim_delay = 100           #How fast the gif frames go
+        self.anim_delay = 50           #How fast the gif frames go
 
         self.sprites = { # Preload all the sprites in a dictionary.
         "idle_l": self.load_asset('res/yalloIDLE.gif'),
@@ -156,4 +162,5 @@ class Yallo(tk.Tk):
     
 # driver code
 if __name__ == "__main__":
-    Yallo().run()
+    friend = Yallo()
+    friend.run()
