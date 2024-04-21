@@ -4,9 +4,13 @@ from PIL import Image
 from random import randrange
 from math import sin, cos, pi
 from tts import text_to_speech
+from sys import exit
+from win32gui import GetWindowText, GetForegroundWindow
 
 # Constants to let Yallo know not to go over the edge (it's his hitbox in a way)
 sprite_width, sprite_height = 160, 160
+
+print(GetWindowText(GetForegroundWindow()))
 
 # Variables
 xOffset = 600
@@ -18,6 +22,8 @@ Encouragement = """I fucking hate gaming laptops."""
 def getMeOut():
    exit()
     
+   exit(0)
+
 # Initiates talking when button is pressed
 def shoutingTime():
     window = tk.Tk()
