@@ -3,7 +3,7 @@ import io
 import pygame
 import threading
 
-inputString = "Howdy partner!"
+inputString = "Howdy partner!" #This string will need to take input from the Chat Gpt Api
 
 # Initialize Pygame Mixer
 pygame.mixer.init()
