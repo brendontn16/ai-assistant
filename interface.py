@@ -1,9 +1,12 @@
 from tkinter import *
 import tkinter as tk
+<<<<<<< Updated upstream
 from PIL import Image
 from random import randrange
+=======
 from PIL import Image, ImageTk
 from random import randrange, random
+>>>>>>> Stashed changes
 from math import sin, cos, pi
 from tts import text_to_speech
 from sys import exit
