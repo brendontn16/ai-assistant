@@ -1,9 +1,9 @@
 from tkinter import *
 import tkinter as tk
-from PIL import Image, ImageTk
-from random import randrange, random
-from numpy import sign, sinc
+from PIL import Image
+from random import randrange
 from math import sin, cos, pi
+from tts import text_to_speech
 from sys import exit
 from win32gui import GetWindowText, GetForegroundWindow
 
@@ -13,10 +13,8 @@ sprite_width, sprite_height = 160, 160
 print(GetWindowText(GetForegroundWindow()))
 
 # Variables
-xOffset = 600
-yOffset = 600
 messageDelay = 5000
-Encouragement = """You're not being productive"""
+Encouragement = """I fucking hate gaming laptops."""
 
 # End Program
 def getMeOut():
@@ -26,16 +24,18 @@ def getMeOut():
 
 # Initiates talking when button is pressed
 def shoutingTime():
+    print(text_to_speech(Encouragement))
+
     window = tk.Tk()
     window.wm_attributes("-topmost",True)
     window.wm_attributes('-alpha', 0.95)
     window.config(borderwidth=0)
     window.overrideredirect(1)
-    window.geometry("500x100+{}+{}".format(xOffset-210,yOffset-120))
+    window.geometry("500x100+{}+{}".format(round(friend.pos_x),round(friend.pos_y)))
 
     # Create text widget and specify size.
-    friendSays = Text(window, height = 5, width = 52)
-    friendSays.configure(font = ("Comic Sans MS", 14, "bold"), wrap=WORD)
+    friendSays = Text(window, height = 7, width = 52)
+    friendSays.configure(font = ("Comic Sans MS", 14), wrap=WORD)
     
     # Friend chat window
     chatTitle = Label(window, text = "Friend Says")
@@ -44,6 +44,12 @@ def shoutingTime():
     friendSays.insert(tk.END, Encouragement)
     friendSays.focus_force()
     friendSays.after(messageDelay,window.destroy)
+
+    if (friend.facing == 0):
+        friend.sprite_index = "yap_l"
+    else:
+        friend.sprite_index = "yap_r"
+
 
 
 # Friend overlay
@@ -59,7 +65,7 @@ class Yallo(tk.Tk):
         self.sprite_index = "idle_l"    #Starting sprite
         self.facing = 0                 #0 for left, 1 for right
         self.anim_index = 0             #Basically a timer that determines the current frame in the gif.
-        self.anim_delay = 100           #How fast the gif frames go
+        self.anim_delay = 50           #How fast the gif frames go
 
         self.sprites = { # Preload all the sprites in a dictionary.
         "idle_l": self.load_asset('res/yalloIDLE.gif'),
@@ -159,6 +165,8 @@ class Yallo(tk.Tk):
     def run(self):
         self.mainloop()
     
-# driver code
+# Run it all. We create an object for Yallo so his variables can be referenced for tts to work
+# Also Yallo is indeed your friend. :)
 if __name__ == "__main__":
-    Yallo().run()
+    friend = Yallo()
+    friend.run()
