@@ -13,8 +13,6 @@ sprite_width, sprite_height = 160, 160
 print(GetWindowText(GetForegroundWindow()))
 
 # Variables
-xOffset = 600
-yOffset = 600
 messageDelay = 5000
 Encouragement = """I fucking hate gaming laptops."""
 
