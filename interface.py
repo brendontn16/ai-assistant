@@ -1,7 +1,12 @@
 from tkinter import *
 import tkinter as tk
+<<<<<<< Updated upstream
 from PIL import Image
 from random import randrange
+=======
+from PIL import Image, ImageTk
+from random import randrange, random
+>>>>>>> Stashed changes
 from math import sin, cos, pi
 from tts import text_to_speech
 from sys import exit
@@ -20,8 +25,6 @@ Encouragement = """I fucking hate gaming laptops."""
 
 # End Program
 def getMeOut():
-   exit()
-    
    exit(0)
 
 # Initiates talking when button is pressed
@@ -57,6 +60,7 @@ def shoutingTime():
 # Friend overlay
 
 class Yallo(tk.Tk):
+
     # Setup
     def __init__(self, *a, **kw):
         tk.Tk.__init__(self, *a, **kw)
@@ -125,7 +129,15 @@ class Yallo(tk.Tk):
         self.after(600,self._stop_walking)
         self.after(3000,self._reset_target_position)
 
+    counter = 0
     def _tick(self):   
+        self.counter += 1
+        # Bad solution to the problem of timing, but I don't have time to redo the movement code
+        if (self.counter % 5000 == 0):
+            print(GetWindowText(GetForegroundWindow()))
+
+
+
         if ((self.pos_x + self.dir_x > self.screen_width - sprite_width) | (self.pos_x + self.dir_x < 0) | (self.pos_y + self.dir_y > self.screen_height - sprite_height) | (self.pos_y + self.dir_y < 0) == False):
             self.pos_x += self.dir_x
             self.pos_y += self.dir_y
@@ -163,7 +175,7 @@ class Yallo(tk.Tk):
         self.anim_index = (self.anim_index + 1) % len(self.sprites[self.sprite_index])
         self.canvas.itemconfig(self.yallo, image= self.sprites[self.sprite_index][self.anim_index])
         self.after(self.anim_delay, self.animate)
-        
+    
     def run(self):
         self.mainloop()
     
