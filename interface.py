@@ -4,10 +4,13 @@ from PIL import Image, ImageTk
 from random import randrange, random
 from numpy import sign, sinc
 from math import sin, cos, pi
+from sys import exit
+from win32gui import GetWindowText, GetForegroundWindow
 
 # Constants to let Yallo know not to go over the edge (it's his hitbox in a way)
 sprite_width, sprite_height = 160, 160
 
+print(GetWindowText(GetForegroundWindow()))
 
 # Variables
 xOffset = 600
@@ -19,6 +22,8 @@ Encouragement = """You're not being productive"""
 def getMeOut():
    exit()
     
+   exit(0)
+
 # Initiates talking when button is pressed
 def shoutingTime():
     window = tk.Tk()
