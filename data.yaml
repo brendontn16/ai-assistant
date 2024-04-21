@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Text', 'logo']
+
+roboflow:
+  workspace: bigbuddy
+  project: thumbnail-hkhup
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/bigbuddy/thumbnail-hkhup/dataset/2

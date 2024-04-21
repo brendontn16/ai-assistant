@@ -1,0 +1,1819 @@
+---
+-
+    label_name: Pokemon
+    bbox_x: 5
+    bbox_y: 3
+    bbox_width: 795
+    bbox_height: 797
+    image_name: 00000000_jpg.rf.2c327d2588e979928541758771d7a23b.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 0
+    bbox_y: 0
+    bbox_width: 790
+    bbox_height: 780
+    image_name: 00000001_png.rf.e105ececd36cab8455bc68284900cdcf.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 26
+    bbox_y: 23
+    bbox_width: 774
+    bbox_height: 732
+    image_name: 00000003_png.rf.2119e83b2a9e484f0b74d9e68547caed.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 44
+    bbox_y: 0
+    bbox_width: 728
+    bbox_height: 777
+    image_name: 0bb1c1f1aa5d4316857f47e52f7f5557_jpg.rf.2b41277f31b65093f7593544a039227b.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 44
+    bbox_y: 11
+    bbox_width: 755
+    bbox_height: 703
+    image_name: 0cb353b6b18845a4a67af4c9c8032abd_jpg.rf.a2ca77345d8cc52654da31854fb3ef66.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 6
+    bbox_y: 11
+    bbox_width: 777
+    bbox_height: 759
+    image_name: 0cdf621bbee34f768b89d6a519f52f1c_jpg.rf.5561628386f5388883ffce49a1334258.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 54
+    bbox_y: 30
+    bbox_width: 746
+    bbox_height: 770
+    image_name: 0eda3fbcc59e4d31be07d5998c9cb8cd_jpg.rf.78fe2296a7b9612bb1a91fc783aef2ff.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 17
+    bbox_y: 27
+    bbox_width: 725
+    bbox_height: 717
+    image_name: 0f95bb7ac9cb4a789515930d1b185c15_jpg.rf.3b090ad376879bcbe468611f3afcfd67.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: VideoThumbnail
+    bbox_x: 9
+    bbox_y: 16
+    bbox_width: 466
+    bbox_height: 258
+    image_name: 10_JPG.rf.4484eb97f8a1e1113ee790bf2f0d5af5.jpg
+    image_width: 475
+    image_height: 851
+-
+    label_name: VideoThumbnail
+    bbox_x: 251
+    bbox_y: 289
+    bbox_width: 224
+    bbox_height: 139
+    image_name: 10_JPG.rf.4484eb97f8a1e1113ee790bf2f0d5af5.jpg
+    image_width: 475
+    image_height: 851
+-
+    label_name: VideoThumbnail
+    bbox_x: 4
+    bbox_y: 446
+    bbox_width: 229
+    bbox_height: 186
+    image_name: 10_JPG.rf.4484eb97f8a1e1113ee790bf2f0d5af5.jpg
+    image_width: 475
+    image_height: 851
+-
+    label_name: VideoThumbnail
+    bbox_x: 248
+    bbox_y: 445
+    bbox_width: 227
+    bbox_height: 184
+    image_name: 10_JPG.rf.4484eb97f8a1e1113ee790bf2f0d5af5.jpg
+    image_width: 475
+    image_height: 851
+-
+    label_name: VideoThumbnail
+    bbox_x: 13
+    bbox_y: 670
+    bbox_width: 220
+    bbox_height: 181
+    image_name: 10_JPG.rf.4484eb97f8a1e1113ee790bf2f0d5af5.jpg
+    image_width: 475
+    image_height: 851
+-
+    label_name: VideoThumbnail
+    bbox_x: 248
+    bbox_y: 676
+    bbox_width: 227
+    bbox_height: 175
+    image_name: 10_JPG.rf.4484eb97f8a1e1113ee790bf2f0d5af5.jpg
+    image_width: 475
+    image_height: 851
+-
+    label_name: Pokemon
+    bbox_x: 27
+    bbox_y: 31
+    bbox_width: 752
+    bbox_height: 752
+    image_name: 10a9f06ec6524c66b779ea80354f8519_jpg.rf.8e78d5c4c504d955f4f6d08d9fc5ec4d.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 86
+    bbox_y: 458
+    bbox_width: 200
+    bbox_height: 266
+    image_name: 10a9f06ec6524c66b779ea80354f8519_jpg.rf.8e78d5c4c504d955f4f6d08d9fc5ec4d.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 534
+    bbox_y: 490
+    bbox_width: 113
+    bbox_height: 238
+    image_name: 10a9f06ec6524c66b779ea80354f8519_jpg.rf.8e78d5c4c504d955f4f6d08d9fc5ec4d.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 326
+    bbox_y: 539
+    bbox_width: 130
+    bbox_height: 182
+    image_name: 10a9f06ec6524c66b779ea80354f8519_jpg.rf.8e78d5c4c504d955f4f6d08d9fc5ec4d.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: VideoThumbnail
+    bbox_x: 199
+    bbox_y: 337
+    bbox_width: 194
+    bbox_height: 179
+    image_name: 16_JPG.rf.b2b10c52ca85ad99063a5fffe1ee6807.jpg
+    image_width: 393
+    image_height: 708
+-
+    label_name: VideoThumbnail
+    bbox_x: 5
+    bbox_y: 515
+    bbox_width: 186
+    bbox_height: 170
+    image_name: 16_JPG.rf.b2b10c52ca85ad99063a5fffe1ee6807.jpg
+    image_width: 393
+    image_height: 708
+-
+    label_name: VideoThumbnail
+    bbox_x: 207
+    bbox_y: 520
+    bbox_width: 186
+    bbox_height: 148
+    image_name: 16_JPG.rf.b2b10c52ca85ad99063a5fffe1ee6807.jpg
+    image_width: 393
+    image_height: 708
+-
+    label_name: VideoThumbnail
+    bbox_x: 3
+    bbox_y: 8
+    bbox_width: 380
+    bbox_height: 230
+    image_name: 19_JPG.rf.cb812d4d9ba3249663cc644c8012436e.jpg
+    image_width: 383
+    image_height: 684
+-
+    label_name: Pokemon
+    bbox_x: 30
+    bbox_y: 37
+    bbox_width: 762
+    bbox_height: 718
+    image_name: 1a07e5b4cd5c40dd80eb0e53d13dee71_jpg.rf.5b11414ae2c6062ded00478db75bebfd.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 72
+    bbox_y: 56
+    bbox_width: 663
+    bbox_height: 744
+    image_name: 1cda95ccc345453b90c46657028cd978_jpg.rf.f5aea456b9f4f98a993fd9e87439a76d.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: VideoThumbnail
+    bbox_x: 0
+    bbox_y: 16
+    bbox_width: 363
+    bbox_height: 212
+    image_name: 25_JPG.rf.1306930762bb45715ed52513318452d1.jpg
+    image_width: 379
+    image_height: 563
+-
+    label_name: VideoThumbnail
+    bbox_x: 7
+    bbox_y: 14
+    bbox_width: 361
+    bbox_height: 250
+    image_name: 27_JPG.rf.fd4e99d3e2180222c1e5fa131d265784.jpg
+    image_width: 368
+    image_height: 652
+-
+    label_name: Pokemon
+    bbox_x: 24
+    bbox_y: 17
+    bbox_width: 776
+    bbox_height: 713
+    image_name: 2eb2a528f9a247358452b3c740df69a0_jpg.rf.8d3a124acf03dc34e54157d55b24e42b.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: VideoThumbnail
+    bbox_x: 4
+    bbox_y: 18
+    bbox_width: 472
+    bbox_height: 273
+    image_name: 31_JPG.rf.46df911257abccf438ce441ede7066e1.jpg
+    image_width: 476
+    image_height: 844
+-
+    label_name: VideoThumbnail
+    bbox_x: 0
+    bbox_y: 351
+    bbox_width: 467
+    bbox_height: 328
+    image_name: 31_JPG.rf.46df911257abccf438ce441ede7066e1.jpg
+    image_width: 476
+    image_height: 844
+-
+    label_name: Anime
+    bbox_x: 14
+    bbox_y: 19
+    bbox_width: 425
+    bbox_height: 296
+    image_name: 325472335_1407654840038834_7638647449362474340_n.png
+    image_width: 811
+    image_height: 676
+-
+    label_name: Anime
+    bbox_x: 14
+    bbox_y: 353
+    bbox_width: 168
+    bbox_height: 170
+    image_name: 325472335_1407654840038834_7638647449362474340_n.png
+    image_width: 811
+    image_height: 676
+-
+    label_name: Anime
+    bbox_x: 252
+    bbox_y: 440
+    bbox_width: 173
+    bbox_height: 140
+    image_name: 325472335_1407654840038834_7638647449362474340_n.png
+    image_width: 811
+    image_height: 676
+-
+    label_name: VideoThumbnail
+    bbox_x: 3
+    bbox_y: 25
+    bbox_width: 469
+    bbox_height: 275
+    image_name: 33_JPG.rf.91f696c70861dbebd9873f0d9e8d1d65.jpg
+    image_width: 472
+    image_height: 845
+-
+    label_name: VideoThumbnail
+    bbox_x: 3
+    bbox_y: 518
+    bbox_width: 469
+    bbox_height: 327
+    image_name: 33_JPG.rf.91f696c70861dbebd9873f0d9e8d1d65.jpg
+    image_width: 472
+    image_height: 845
+-
+    label_name: VideoThumbnail
+    bbox_x: 4
+    bbox_y: 282
+    bbox_width: 467
+    bbox_height: 221
+    image_name: 37_JPG.rf.a1ddf2cf157265e928f6040fdb4f8ff1.jpg
+    image_width: 471
+    image_height: 503
+-
+    label_name: VideoThumbnail
+    bbox_x: 6
+    bbox_y: 86
+    bbox_width: 216
+    bbox_height: 201
+    image_name: 3_JPG.rf.59d2e1928d994ee8f282682d7bf7ba63.jpg
+    image_width: 472
+    image_height: 814
+-
+    label_name: VideoThumbnail
+    bbox_x: 235
+    bbox_y: 90
+    bbox_width: 235
+    bbox_height: 195
+    image_name: 3_JPG.rf.59d2e1928d994ee8f282682d7bf7ba63.jpg
+    image_width: 472
+    image_height: 814
+-
+    label_name: VideoThumbnail
+    bbox_x: 4
+    bbox_y: 410
+    bbox_width: 228
+    bbox_height: 219
+    image_name: 3_JPG.rf.59d2e1928d994ee8f282682d7bf7ba63.jpg
+    image_width: 472
+    image_height: 814
+-
+    label_name: VideoThumbnail
+    bbox_x: 246
+    bbox_y: 416
+    bbox_width: 226
+    bbox_height: 192
+    image_name: 3_JPG.rf.59d2e1928d994ee8f282682d7bf7ba63.jpg
+    image_width: 472
+    image_height: 814
+-
+    label_name: VideoThumbnail
+    bbox_x: 8
+    bbox_y: 646
+    bbox_width: 221
+    bbox_height: 168
+    image_name: 3_JPG.rf.59d2e1928d994ee8f282682d7bf7ba63.jpg
+    image_width: 472
+    image_height: 814
+-
+    label_name: VideoThumbnail
+    bbox_x: 246
+    bbox_y: 633
+    bbox_width: 226
+    bbox_height: 181
+    image_name: 3_JPG.rf.59d2e1928d994ee8f282682d7bf7ba63.jpg
+    image_width: 472
+    image_height: 814
+-
+    label_name: Youtube
+    bbox_x: 7
+    bbox_y: 23
+    bbox_width: 90
+    bbox_height: 27
+    image_name: 3_JPG.rf.59d2e1928d994ee8f282682d7bf7ba63.jpg
+    image_width: 472
+    image_height: 814
+-
+    label_name: Pokemon
+    bbox_x: 5
+    bbox_y: 14
+    bbox_width: 795
+    bbox_height: 720
+    image_name: 3c4ab4f4e1d548e5bc038715b47b4d51_jpg.rf.86fe9182d37a596c895a6fc46834bf15.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Youtube
+    bbox_x: 15
+    bbox_y: 26
+    bbox_width: 78
+    bbox_height: 32
+    image_name: 5_JPG.rf.e3d074cbfa0169636afc355335ebcf4c.jpg
+    image_width: 478
+    image_height: 856
+-
+    label_name: VideoThumbnail
+    bbox_x: 10
+    bbox_y: 197
+    bbox_width: 226
+    bbox_height: 205
+    image_name: 5_JPG.rf.e3d074cbfa0169636afc355335ebcf4c.jpg
+    image_width: 478
+    image_height: 856
+-
+    label_name: VideoThumbnail
+    bbox_x: 250
+    bbox_y: 205
+    bbox_width: 217
+    bbox_height: 190
+    image_name: 5_JPG.rf.e3d074cbfa0169636afc355335ebcf4c.jpg
+    image_width: 478
+    image_height: 856
+-
+    label_name: VideoThumbnail
+    bbox_x: 250
+    bbox_y: 422
+    bbox_width: 225
+    bbox_height: 196
+    image_name: 5_JPG.rf.e3d074cbfa0169636afc355335ebcf4c.jpg
+    image_width: 478
+    image_height: 856
+-
+    label_name: VideoThumbnail
+    bbox_x: 1
+    bbox_y: 425
+    bbox_width: 237
+    bbox_height: 191
+    image_name: 5_JPG.rf.e3d074cbfa0169636afc355335ebcf4c.jpg
+    image_width: 478
+    image_height: 856
+-
+    label_name: VideoThumbnail
+    bbox_x: 6
+    bbox_y: 637
+    bbox_width: 436
+    bbox_height: 95
+    image_name: 5_JPG.rf.e3d074cbfa0169636afc355335ebcf4c.jpg
+    image_width: 478
+    image_height: 856
+-
+    label_name: Pokemon
+    bbox_x: 38
+    bbox_y: 17
+    bbox_width: 762
+    bbox_height: 783
+    image_name: 5c0ca320656b4f2fadea7aefeb80da53_jpg.rf.b6928ceff3623fe19eb689bd0e609e15.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 9
+    bbox_y: 34
+    bbox_width: 745
+    bbox_height: 749
+    image_name: 5ecb491b17fa45278ced50c25dcecc3f_jpg.rf.9465f6cd0585a6eb3000ac16c315899b.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 21
+    bbox_y: 15
+    bbox_width: 777
+    bbox_height: 770
+    image_name: 7a300d6f799c48d1943cafaa5ab24e27_jpg.rf.43612d97e52aabdad81ad2998f188926.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 88
+    bbox_y: 62
+    bbox_width: 700
+    bbox_height: 569
+    image_name: 7b9859252d9346f6b3e7bc46d423c116_jpg.rf.d7e07e0bd60853c6f2458cda7d9d8292.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 0
+    bbox_y: 0
+    bbox_width: 800
+    bbox_height: 800
+    image_name: 7eb94c12eaab4b7caab6269d44e68726_jpg.rf.1ea5c3eff08f62b2e1f9eae6b9f71c7a.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Pokemon
+    bbox_x: 2
+    bbox_y: 11
+    bbox_width: 798
+    bbox_height: 789
+    image_name: 7fb36ffead6745a3b6b6d8f1aaf7a0cc_jpg.rf.09aed0429d98c039090ffe2abc68e4af.jpg
+    image_width: 800
+    image_height: 800
+-
+    label_name: Anime
+    bbox_x: 18
+    bbox_y: 3
+    bbox_width: 1525
+    bbox_height: 997
+    image_name: Capture-min (1) (1) (1).png
+    image_width: 1543
+    image_height: 1000
+-
+    label_name: VideoThumbnail
+    bbox_x: 0
+    bbox_y: 8
+    bbox_width: 437
+    bbox_height: 250
+    image_name: Capture12_jpg.rf.8d5b314240a3a6d97c63b5076f0946ba.jpg
+    image_width: 446
+    image_height: 793
+-
+    label_name: VideoThumbnail
+    bbox_x: 7
+    bbox_y: 316
+    bbox_width: 225
+    bbox_height: 175
+    image_name: Capture12_jpg.rf.8d5b314240a3a6d97c63b5076f0946ba.jpg
+    image_width: 446
+    image_height: 793
+-
+    label_name: VideoThumbnail
+    bbox_x: 222
+    bbox_y: 318
+    bbox_width: 211
+    bbox_height: 172
+    image_name: Capture12_jpg.rf.8d5b314240a3a6d97c63b5076f0946ba.jpg
+    image_width: 446
+    image_height: 793
+-
+    label_name: VideoThumbnail
+    bbox_x: 8
+    bbox_y: 507
+    bbox_width: 204
+    bbox_height: 163
+    image_name: Capture12_jpg.rf.8d5b314240a3a6d97c63b5076f0946ba.jpg
+    image_width: 446
+    image_height: 793
+-
+    label_name: VideoThumbnail
+    bbox_x: 230
+    bbox_y: 494
+    bbox_width: 211
+    bbox_height: 180
+    image_name: Capture12_jpg.rf.8d5b314240a3a6d97c63b5076f0946ba.jpg
+    image_width: 446
+    image_height: 793
+-
+    label_name: VideoThumbnail
+    bbox_x: 1001
+    bbox_y: 26
+    bbox_width: 408
+    bbox_height: 300
+    image_name: Capture14_jpg.rf.4007424eb559859e6cec6bc20215d51d.jpg
+    image_width: 1409
+    image_height: 792
+-
+    label_name: VideoThumbnail
+    bbox_x: 1003
+    bbox_y: 352
+    bbox_width: 406
+    bbox_height: 284
+    image_name: Capture14_jpg.rf.4007424eb559859e6cec6bc20215d51d.jpg
+    image_width: 1409
+    image_height: 792
+-
+    label_name: VideoThumbnail
+    bbox_x: 7
+    bbox_y: 47
+    bbox_width: 982
+    bbox_height: 607
+    image_name: Capture14_jpg.rf.4007424eb559859e6cec6bc20215d51d.jpg
+    image_width: 1409
+    image_height: 792
+-
+    label_name: VideoThumbnail
+    bbox_x: 4
+    bbox_y: 21
+    bbox_width: 440
+    bbox_height: 245
+    image_name: Capture26_JPG.rf.b9663c6faf0ba0ffb06a3d0371d45c9b.jpg
+    image_width: 449
+    image_height: 808
+-
+    label_name: VideoThumbnail
+    bbox_x: 7
+    bbox_y: 339
+    bbox_width: 430
+    bbox_height: 299
+    image_name: Capture26_JPG.rf.b9663c6faf0ba0ffb06a3d0371d45c9b.jpg
+    image_width: 449
+    image_height: 808
+-
+    label_name: VideoThumbnail
+    bbox_x: 11
+    bbox_y: 118
+    bbox_width: 203
+    bbox_height: 192
+    image_name: Capture28_JPG.rf.0850186af9d87077298affcdbed41c95.jpg
+    image_width: 449
+    image_height: 797
+-
+    label_name: VideoThumbnail
+    bbox_x: 233
+    bbox_y: 122
+    bbox_width: 208
+    bbox_height: 189
+    image_name: Capture28_JPG.rf.0850186af9d87077298affcdbed41c95.jpg
+    image_width: 449
+    image_height: 797
+-
+    label_name: VideoThumbnail
+    bbox_x: 0
+    bbox_y: 327
+    bbox_width: 223
+    bbox_height: 173
+    image_name: Capture28_JPG.rf.0850186af9d87077298affcdbed41c95.jpg
+    image_width: 449
+    image_height: 797
+-
+    label_name: VideoThumbnail
+    bbox_x: 243
+    bbox_y: 292
+    bbox_width: 206
+    bbox_height: 229
+    image_name: Capture28_JPG.rf.0850186af9d87077298affcdbed41c95.jpg
+    image_width: 449
+    image_height: 797
+-
+    label_name: VideoThumbnail
+    bbox_x: 6
+    bbox_y: 522
+    bbox_width: 201
+    bbox_height: 185
+    image_name: Capture28_JPG.rf.0850186af9d87077298affcdbed41c95.jpg
+    image_width: 449
+    image_height: 797
+-
+    label_name: VideoThumbnail
+    bbox_x: 226
+    bbox_y: 528
+    bbox_width: 223
+    bbox_height: 195
+    image_name: Capture28_JPG.rf.0850186af9d87077298affcdbed41c95.jpg
+    image_width: 449
+    image_height: 797
+-
+    label_name: VideoThumbnail
+    bbox_x: 65
+    bbox_y: 347
+    bbox_width: 232
+    bbox_height: 194
+    image_name: Capture29_JPG.rf.e3f066925bc621c1f36161e84505dc68.jpg
+    image_width: 533
+    image_height: 903
+-
+    label_name: VideoThumbnail
+    bbox_x: 291
+    bbox_y: 353
+    bbox_width: 237
+    bbox_height: 189
+    image_name: Capture29_JPG.rf.e3f066925bc621c1f36161e84505dc68.jpg
+    image_width: 533
+    image_height: 903
+-
+    label_name: VideoThumbnail
+    bbox_x: 57
+    bbox_y: 560
+    bbox_width: 242
+    bbox_height: 210
+    image_name: Capture29_JPG.rf.e3f066925bc621c1f36161e84505dc68.jpg
+    image_width: 533
+    image_height: 903
+-
+    label_name: VideoThumbnail
+    bbox_x: 297
+    bbox_y: 564
+    bbox_width: 229
+    bbox_height: 202
+    image_name: Capture29_JPG.rf.e3f066925bc621c1f36161e84505dc68.jpg
+    image_width: 533
+    image_height: 903
+-
+    label_name: VideoThumbnail
+    bbox_x: 57
+    bbox_y: 796
+    bbox_width: 232
+    bbox_height: 107
+    image_name: Capture29_JPG.rf.e3f066925bc621c1f36161e84505dc68.jpg
+    image_width: 533
+    image_height: 903
+-
+    label_name: VideoThumbnail
+    bbox_x: 300
+    bbox_y: 795
+    bbox_width: 232
+    bbox_height: 103
+    image_name: Capture29_JPG.rf.e3f066925bc621c1f36161e84505dc68.jpg
+    image_width: 533
+    image_height: 903
+-
+    label_name: VideoThumbnail
+    bbox_x: 2
+    bbox_y: 258
+    bbox_width: 217
+    bbox_height: 163
+    image_name: Capture2_jpg.rf.37cb80ca45379b0d2018aa1adacae5ce.jpg
+    image_width: 441
+    image_height: 791
+-
+    label_name: VideoThumbnail
+    bbox_x: 212
+    bbox_y: 252
+    bbox_width: 223
+    bbox_height: 181
+    image_name: Capture2_jpg.rf.37cb80ca45379b0d2018aa1adacae5ce.jpg
+    image_width: 441
+    image_height: 791
+-
+    label_name: VideoThumbnail
+    bbox_x: 2
+    bbox_y: 439
+    bbox_width: 212
+    bbox_height: 170
+    image_name: Capture2_jpg.rf.37cb80ca45379b0d2018aa1adacae5ce.jpg
+    image_width: 441
+    image_height: 791
+-
+    label_name: VideoThumbnail
+    bbox_x: 210
+    bbox_y: 441
+    bbox_width: 227
+    bbox_height: 164
+    image_name: Capture2_jpg.rf.37cb80ca45379b0d2018aa1adacae5ce.jpg
+    image_width: 441
+    image_height: 791
+-
+    label_name: VideoThumbnail
+    bbox_x: 10
+    bbox_y: 625
+    bbox_width: 201
+    bbox_height: 166
+    image_name: Capture2_jpg.rf.37cb80ca45379b0d2018aa1adacae5ce.jpg
+    image_width: 441
+    image_height: 791
+-
+    label_name: VideoThumbnail
+    bbox_x: 225
+    bbox_y: 616
+    bbox_width: 213
+    bbox_height: 164
+    image_name: Capture2_jpg.rf.37cb80ca45379b0d2018aa1adacae5ce.jpg
+    image_width: 441
+    image_height: 791
+-
+    label_name: VideoThumbnail
+    bbox_x: 0
+    bbox_y: 160
+    bbox_width: 209
+    bbox_height: 160
+    image_name: Capture37_JPG.rf.59df57fcb98dd584362776b754c88b8f.jpg
+    image_width: 215
+    image_height: 378
+-
+    label_name: VideoThumbnail
+    bbox_x: 1
+    bbox_y: 11
+    bbox_width: 214
+    bbox_height: 122
+    image_name: Capture37_JPG.rf.59df57fcb98dd584362776b754c88b8f.jpg
+    image_width: 215
+    image_height: 378
+-
+    label_name: Youtube
+    bbox_x: 17
+    bbox_y: 3
+    bbox_width: 15
+    bbox_height: 7
+    image_name: Capture37_JPG.rf.59df57fcb98dd584362776b754c88b8f.jpg
+    image_width: 215
+    image_height: 378
+-
+    label_name: Youtube
+    bbox_x: 46
+    bbox_y: 3
+    bbox_width: 14
+    bbox_height: 7
+    image_name: Capture37_JPG.rf.59df57fcb98dd584362776b754c88b8f.jpg
+    image_width: 215
+    image_height: 378
+-
+    label_name: Youtube
+    bbox_x: 38
+    bbox_y: 3
+    bbox_width: 6
+    bbox_height: 9
+    image_name: Capture37_JPG.rf.59df57fcb98dd584362776b754c88b8f.jpg
+    image_width: 215
+    image_height: 378
+-
+    label_name: VideoThumbnail
+    bbox_x: 1
+    bbox_y: 13
+    bbox_width: 212
+    bbox_height: 122
+    image_name: Capture41_JPG.rf.17d683f3d4eb3bf0c5c9b17786031804.jpg
+    image_width: 213
+    image_height: 376
+-
+    label_name: VideoThumbnail
+    bbox_x: 1
+    bbox_y: 164
+    bbox_width: 212
+    bbox_height: 81
+    image_name: Capture41_JPG.rf.17d683f3d4eb3bf0c5c9b17786031804.jpg
+    image_width: 213
+    image_height: 376
+-
+    label_name: VideoThumbnail
+    bbox_x: 1
+    bbox_y: 252
+    bbox_width: 212
+    bbox_height: 124
+    image_name: Capture41_JPG.rf.17d683f3d4eb3bf0c5c9b17786031804.jpg
+    image_width: 213
+    image_height: 376
+-
+    label_name: VideoThumbnail
+    bbox_x: 0
+    bbox_y: 9
+    bbox_width: 204
+    bbox_height: 122
+    image_name: Capture49_JPG.rf.c68e725dafacbd2c646e616c47d19b8f.jpg
+    image_width: 204
+    image_height: 376
+-
+    label_name: VideoThumbnail
+    bbox_x: 5
+    bbox_y: 171
+    bbox_width: 93
+    bbox_height: 74
+    image_name: Capture49_JPG.rf.c68e725dafacbd2c646e616c47d19b8f.jpg
+    image_width: 204
+    image_height: 376
+-
+    label_name: VideoThumbnail
+    bbox_x: 105
+    bbox_y: 170
+    bbox_width: 99
+    bbox_height: 79
+    image_name: Capture49_JPG.rf.c68e725dafacbd2c646e616c47d19b8f.jpg
+    image_width: 204
+    image_height: 376
+-
+    label_name: VideoThumbnail
+    bbox_x: 3
+    bbox_y: 257
+    bbox_width: 96
+    bbox_height: 81
+    image_name: Capture49_JPG.rf.c68e725dafacbd2c646e616c47d19b8f.jpg
+    image_width: 204
+    image_height: 376
+-
+    label_name: VideoThumbnail
+    bbox_x: 108
+    bbox_y: 259
+    bbox_width: 96
+    bbox_height: 77
+    image_name: Capture49_JPG.rf.c68e725dafacbd2c646e616c47d19b8f.jpg
+    image_width: 204
+    image_height: 376
+-
+    label_name: Anime
+    bbox_x: 1
+    bbox_y: 1
+    bbox_width: 394
+    bbox_height: 282
+    image_name: PFP.gif
+    image_width: 500
+    image_height: 283
+-
+    label_name: Cats
+    bbox_x: 285
+    bbox_y: 14
+    bbox_width: 790
+    bbox_height: 607
+    image_name: Screenshot_2023-03-31-11-30-14-78_50ef9f5a0f3fc24b6f0ffc8843167fe4.jpg
+    image_width: 1080
+    image_height: 1002
+-
+    label_name: VideoThumbnail
+    bbox_x: 14
+    bbox_y: 487
+    bbox_width: 456
+    bbox_height: 366
+    image_name: Screenshot_2023-04-30_13-15-32-328_png.rf.868c5abd86a228fffc1242fa4bde8976.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 36
+    bbox_y: 177
+    bbox_width: 406
+    bbox_height: 276
+    image_name: Screenshot_2023-04-30_13-15-32-328_png.rf.868c5abd86a228fffc1242fa4bde8976.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 470
+    bbox_y: 180
+    bbox_width: 430
+    bbox_height: 256
+    image_name: Screenshot_2023-04-30_13-15-32-328_png.rf.868c5abd86a228fffc1242fa4bde8976.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 448
+    bbox_y: 468
+    bbox_width: 423
+    bbox_height: 394
+    image_name: Screenshot_2023-04-30_13-15-32-328_png.rf.868c5abd86a228fffc1242fa4bde8976.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 11
+    bbox_y: 1180
+    bbox_width: 428
+    bbox_height: 338
+    image_name: Screenshot_2023-04-30_13-15-32-328_png.rf.868c5abd86a228fffc1242fa4bde8976.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 465
+    bbox_y: 1186
+    bbox_width: 435
+    bbox_height: 397
+    image_name: Screenshot_2023-04-30_13-15-32-328_png.rf.868c5abd86a228fffc1242fa4bde8976.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 341
+    bbox_y: 552
+    bbox_width: 254
+    bbox_height: 270
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 628
+    bbox_y: 549
+    bbox_width: 259
+    bbox_height: 268
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 8
+    bbox_y: 882
+    bbox_width: 285
+    bbox_height: 279
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 313
+    bbox_y: 876
+    bbox_width: 248
+    bbox_height: 296
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 600
+    bbox_y: 882
+    bbox_width: 300
+    bbox_height: 293
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 14
+    bbox_y: 1206
+    bbox_width: 285
+    bbox_height: 299
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 310
+    bbox_y: 1197
+    bbox_width: 282
+    bbox_height: 313
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: VideoThumbnail
+    bbox_x: 583
+    bbox_y: 1194
+    bbox_width: 313
+    bbox_height: 310
+    image_name: Screenshot_2023-04-30_14-04-50-196_png.rf.57b819ff35de99c62c337c2dd6d93ccb.jpg
+    image_width: 900
+    image_height: 1600
+-
+    label_name: Anime
+    bbox_x: 8
+    bbox_y: 6
+    bbox_width: 1049
+    bbox_height: 1051
+    image_name: ba63689b1f813af35c4f310873851539.jpg
+    image_width: 1057
+    image_height: 1057
+-
+    label_name: Cats
+    bbox_x: 84
+    bbox_y: 111
+    bbox_width: 651
+    bbox_height: 634
+    image_name: d12a6a974586ca7e95fd89a0b6538ded.png
+    image_width: 735
+    image_height: 745
+-
+    label_name: Reddit
+    bbox_x: 1
+    bbox_y: 1
+    bbox_width: 223
+    bbox_height: 224
+    image_name: download (1).jpg
+    image_width: 224
+    image_height: 225
+-
+    label_name: Reddit
+    bbox_x: 11
+    bbox_y: 46
+    bbox_width: 76
+    bbox_height: 84
+    image_name: download (1).png
+    image_width: 300
+    image_height: 168
+-
+    label_name: Reddit
+    bbox_x: 93
+    bbox_y: 60
+    bbox_width: 197
+    bbox_height: 53
+    image_name: download (1).png
+    image_width: 300
+    image_height: 168
+-
+    label_name: Twitter
+    bbox_x: 46
+    bbox_y: 59
+    bbox_width: 70
+    bbox_height: 71
+    image_name: download (10).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Twitter
+    bbox_x: 155
+    bbox_y: 64
+    bbox_width: 101
+    bbox_height: 87
+    image_name: download (10).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Steam
+    bbox_x: 41
+    bbox_y: 21
+    bbox_width: 125
+    bbox_height: 106
+    image_name: download (10).png
+    image_width: 225
+    image_height: 225
+-
+    label_name: Steam
+    bbox_x: 2
+    bbox_y: 128
+    bbox_width: 200
+    bbox_height: 64
+    image_name: download (10).png
+    image_width: 225
+    image_height: 225
+-
+    label_name: Twitter
+    bbox_x: 61
+    bbox_y: 12
+    bbox_width: 208
+    bbox_height: 156
+    image_name: download (11).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Steam
+    bbox_x: 1
+    bbox_y: 2
+    bbox_width: 136
+    bbox_height: 125
+    image_name: download (11).png
+    image_width: 397
+    image_height: 127
+-
+    label_name: Steam
+    bbox_x: 148
+    bbox_y: 28
+    bbox_width: 249
+    bbox_height: 65
+    image_name: download (11).png
+    image_width: 397
+    image_height: 127
+-
+    label_name: Twitter
+    bbox_x: 27
+    bbox_y: 47
+    bbox_width: 144
+    bbox_height: 134
+    image_name: download (12).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Steam
+    bbox_x: 25
+    bbox_y: 24
+    bbox_width: 96
+    bbox_height: 63
+    image_name: download (12).png
+    image_width: 318
+    image_height: 159
+-
+    label_name: Steam
+    bbox_x: 26
+    bbox_y: 94
+    bbox_width: 108
+    bbox_height: 25
+    image_name: download (12).png
+    image_width: 318
+    image_height: 159
+-
+    label_name: Steam
+    bbox_x: 186
+    bbox_y: 96
+    bbox_width: 108
+    bbox_height: 25
+    image_name: download (12).png
+    image_width: 318
+    image_height: 159
+-
+    label_name: Steam
+    bbox_x: 206
+    bbox_y: 35
+    bbox_width: 62
+    bbox_height: 53
+    image_name: download (12).png
+    image_width: 318
+    image_height: 159
+-
+    label_name: Twitter
+    bbox_x: 6
+    bbox_y: 10
+    bbox_width: 201
+    bbox_height: 146
+    image_name: download (13).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Twitter
+    bbox_x: 2
+    bbox_y: 158
+    bbox_width: 223
+    bbox_height: 63
+    image_name: download (13).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Twitter
+    bbox_x: 36
+    bbox_y: 42
+    bbox_width: 151
+    bbox_height: 120
+    image_name: download (13).png
+    image_width: 225
+    image_height: 225
+-
+    label_name: Twitter
+    bbox_x: 52
+    bbox_y: 0
+    bbox_width: 175
+    bbox_height: 157
+    image_name: download (14).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Twitter
+    bbox_x: 3
+    bbox_y: 0
+    bbox_width: 245
+    bbox_height: 204
+    image_name: download (14).png
+    image_width: 248
+    image_height: 204
+-
+    label_name: Twitter
+    bbox_x: 26
+    bbox_y: 36
+    bbox_width: 27
+    bbox_height: 26
+    image_name: download (15).jpg
+    image_width: 228
+    image_height: 221
+-
+    label_name: Twitter
+    bbox_x: 192
+    bbox_y: 6
+    bbox_width: 36
+    bbox_height: 28
+    image_name: download (15).jpg
+    image_width: 228
+    image_height: 221
+-
+    label_name: Facebook
+    bbox_x: 1
+    bbox_y: 3
+    bbox_width: 224
+    bbox_height: 222
+    image_name: download (15).png
+    image_width: 225
+    image_height: 225
+-
+    label_name: Facebook
+    bbox_x: 0
+    bbox_y: 3
+    bbox_width: 209
+    bbox_height: 222
+    image_name: download (16).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Facebook
+    bbox_x: 30
+    bbox_y: 10
+    bbox_width: 353
+    bbox_height: 114
+    image_name: download (16).png
+    image_width: 391
+    image_height: 129
+-
+    label_name: Facebook
+    bbox_x: 8
+    bbox_y: 18
+    bbox_width: 76
+    bbox_height: 74
+    image_name: download (17).jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Facebook
+    bbox_x: 92
+    bbox_y: 15
+    bbox_width: 75
+    bbox_height: 82
+    image_name: download (17).jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Facebook
+    bbox_x: 174
+    bbox_y: 18
+    bbox_width: 80
+    bbox_height: 74
+    image_name: download (17).jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Facebook
+    bbox_x: 174
+    bbox_y: 101
+    bbox_width: 75
+    bbox_height: 77
+    image_name: download (17).jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Facebook
+    bbox_x: 93
+    bbox_y: 101
+    bbox_width: 70
+    bbox_height: 73
+    image_name: download (17).jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Facebook
+    bbox_x: 10
+    bbox_y: 98
+    bbox_width: 72
+    bbox_height: 71
+    image_name: download (17).jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Facebook
+    bbox_x: 75
+    bbox_y: 17
+    bbox_width: 148
+    bbox_height: 125
+    image_name: download (17).png
+    image_width: 310
+    image_height: 163
+-
+    label_name: Facebook
+    bbox_x: 17
+    bbox_y: 41
+    bbox_width: 267
+    bbox_height: 89
+    image_name: download (18).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Facebook
+    bbox_x: 44
+    bbox_y: 96
+    bbox_width: 109
+    bbox_height: 116
+    image_name: download (19).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Facebook
+    bbox_x: 30
+    bbox_y: 2
+    bbox_width: 103
+    bbox_height: 42
+    image_name: download (19).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Facebook
+    bbox_x: 148
+    bbox_y: 3
+    bbox_width: 36
+    bbox_height: 45
+    image_name: download (19).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Facebook
+    bbox_x: 179
+    bbox_y: 137
+    bbox_width: 46
+    bbox_height: 43
+    image_name: download (19).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Reddit
+    bbox_x: 5
+    bbox_y: 5
+    bbox_width: 220
+    bbox_height: 220
+    image_name: download (2).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Reddit
+    bbox_x: 20
+    bbox_y: 35
+    bbox_width: 182
+    bbox_height: 155
+    image_name: download (2).png
+    image_width: 225
+    image_height: 225
+-
+    label_name: Reddit
+    bbox_x: 155
+    bbox_y: 18
+    bbox_width: 121
+    bbox_height: 149
+    image_name: download (3).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Reddit
+    bbox_x: 4
+    bbox_y: 2
+    bbox_width: 221
+    bbox_height: 223
+    image_name: download (3).png
+    image_width: 225
+    image_height: 225
+-
+    label_name: Steam
+    bbox_x: 2
+    bbox_y: 2
+    bbox_width: 223
+    bbox_height: 223
+    image_name: download (4).jpg
+    image_width: 225
+    image_height: 225
+-
+    label_name: Reddit
+    bbox_x: 47
+    bbox_y: 65
+    bbox_width: 66
+    bbox_height: 41
+    image_name: download (4).png
+    image_width: 299
+    image_height: 168
+-
+    label_name: Reddit
+    bbox_x: 118
+    bbox_y: 62
+    bbox_width: 117
+    bbox_height: 43
+    image_name: download (4).png
+    image_width: 299
+    image_height: 168
+-
+    label_name: Steam
+    bbox_x: 8
+    bbox_y: 51
+    bbox_width: 84
+    bbox_height: 45
+    image_name: download (5).jpg
+    image_width: 337
+    image_height: 150
+-
+    label_name: Steam
+    bbox_x: 89
+    bbox_y: 50
+    bbox_width: 68
+    bbox_height: 30
+    image_name: download (5).jpg
+    image_width: 337
+    image_height: 150
+-
+    label_name: Steam
+    bbox_x: 174
+    bbox_y: 10
+    bbox_width: 140
+    bbox_height: 119
+    image_name: download (5).jpg
+    image_width: 337
+    image_height: 150
+-
+    label_name: Reddit
+    bbox_x: 32
+    bbox_y: 32
+    bbox_width: 92
+    bbox_height: 97
+    image_name: download (5).png
+    image_width: 300
+    image_height: 168
+-
+    label_name: Reddit
+    bbox_x: 151
+    bbox_y: 25
+    bbox_width: 122
+    bbox_height: 103
+    image_name: download (5).png
+    image_width: 300
+    image_height: 168
+-
+    label_name: Steam
+    bbox_x: 5
+    bbox_y: 3
+    bbox_width: 239
+    bbox_height: 204
+    image_name: download (6).jpg
+    image_width: 244
+    image_height: 207
+-
+    label_name: Reddit
+    bbox_x: 2
+    bbox_y: 0
+    bbox_width: 134
+    bbox_height: 132
+    image_name: download (6).png
+    image_width: 382
+    image_height: 132
+-
+    label_name: Reddit
+    bbox_x: 145
+    bbox_y: 14
+    bbox_width: 237
+    bbox_height: 100
+    image_name: download (6).png
+    image_width: 382
+    image_height: 132
+-
+    label_name: Steam
+    bbox_x: 93
+    bbox_y: 10
+    bbox_width: 124
+    bbox_height: 80
+    image_name: download (7).jpg
+    image_width: 318
+    image_height: 159
+-
+    label_name: Steam
+    bbox_x: 75
+    bbox_y: 98
+    bbox_width: 166
+    bbox_height: 47
+    image_name: download (7).jpg
+    image_width: 318
+    image_height: 159
+-
+    label_name: Reddit
+    bbox_x: 6
+    bbox_y: 10
+    bbox_width: 102
+    bbox_height: 91
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 114
+    bbox_y: 15
+    bbox_width: 97
+    bbox_height: 88
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 23
+    bbox_y: 102
+    bbox_width: 98
+    bbox_height: 28
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 128
+    bbox_y: 101
+    bbox_width: 76
+    bbox_height: 30
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 224
+    bbox_y: 107
+    bbox_width: 35
+    bbox_height: 25
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 257
+    bbox_y: 110
+    bbox_width: 33
+    bbox_height: 26
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 288
+    bbox_y: 106
+    bbox_width: 30
+    bbox_height: 31
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 322
+    bbox_y: 107
+    bbox_width: 28
+    bbox_height: 28
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 317
+    bbox_y: 67
+    bbox_width: 33
+    bbox_height: 30
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 292
+    bbox_y: 74
+    bbox_width: 19
+    bbox_height: 24
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 258
+    bbox_y: 73
+    bbox_width: 26
+    bbox_height: 26
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 226
+    bbox_y: 71
+    bbox_width: 28
+    bbox_height: 29
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 217
+    bbox_y: 40
+    bbox_width: 37
+    bbox_height: 24
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 261
+    bbox_y: 38
+    bbox_width: 19
+    bbox_height: 27
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 291
+    bbox_y: 40
+    bbox_width: 21
+    bbox_height: 24
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 322
+    bbox_y: 41
+    bbox_width: 27
+    bbox_height: 22
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 322
+    bbox_y: 7
+    bbox_width: 24
+    bbox_height: 25
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 291
+    bbox_y: 9
+    bbox_width: 24
+    bbox_height: 22
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 257
+    bbox_y: 8
+    bbox_width: 28
+    bbox_height: 22
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Reddit
+    bbox_x: 226
+    bbox_y: 7
+    bbox_width: 28
+    bbox_height: 26
+    image_name: download (7).png
+    image_width: 359
+    image_height: 140
+-
+    label_name: Twitter
+    bbox_x: 18
+    bbox_y: 50
+    bbox_width: 93
+    bbox_height: 76
+    image_name: download (8).jpg
+    image_width: 275
+    image_height: 183
+-
+    label_name: Twitter
+    bbox_x: 165
+    bbox_y: 49
+    bbox_width: 83
+    bbox_height: 83
+    image_name: download (8).jpg
+    image_width: 275
+    image_height: 183
+-
+    label_name: Steam
+    bbox_x: 3
+    bbox_y: 2
+    bbox_width: 222
+    bbox_height: 223
+    image_name: download (8).png
+    image_width: 225
+    image_height: 225
+-
+    label_name: Twitter
+    bbox_x: 2
+    bbox_y: 6
+    bbox_width: 190
+    bbox_height: 160
+    image_name: download (9).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Twitter
+    bbox_x: 228
+    bbox_y: 62
+    bbox_width: 25
+    bbox_height: 22
+    image_name: download (9).jpg
+    image_width: 300
+    image_height: 168
+-
+    label_name: Steam
+    bbox_x: 1
+    bbox_y: 0
+    bbox_width: 132
+    bbox_height: 124
+    image_name: download (9).png
+    image_width: 407
+    image_height: 124
+-
+    label_name: Steam
+    bbox_x: 150
+    bbox_y: 5
+    bbox_width: 257
+    bbox_height: 102
+    image_name: download (9).png
+    image_width: 407
+    image_height: 124
+-
+    label_name: Anime
+    bbox_x: 0
+    bbox_y: 0
+    bbox_width: 576
+    bbox_height: 710
+    image_name: image0-10-1.jpg
+    image_width: 1049
+    image_height: 1036
+-
+    label_name: Cats
+    bbox_x: 7
+    bbox_y: 8
+    bbox_width: 480
+    bbox_height: 662
+    image_name: image0-25.gif
+    image_width: 487
+    image_height: 670
+-
+    label_name: Steam
+    bbox_x: 15
+    bbox_y: 49
+    bbox_width: 125
+    bbox_height: 86
+    image_name: images.jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Steam
+    bbox_x: 141
+    bbox_y: 63
+    bbox_width: 101
+    bbox_height: 66
+    image_name: images.jpg
+    image_width: 259
+    image_height: 194
+-
+    label_name: Anime
+    bbox_x: 63
+    bbox_y: 5
+    bbox_width: 320
+    bbox_height: 293
+    image_name: original.gif
+    image_width: 500
+    image_height: 334
+-
+    label_name: Anime
+    bbox_x: 165
+    bbox_y: 33
+    bbox_width: 330
+    bbox_height: 246
+    image_name: unknown (1).png
+    image_width: 640
+    image_height: 640
