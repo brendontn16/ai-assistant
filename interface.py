@@ -11,44 +11,45 @@ from aiassistant import respond
 # Constants to let Yallo know not to go over the edge (it's his hitbox in a way)
 sprite_width, sprite_height = 160, 160
 
-response = respond(GetWindowText(GetForegroundWindow()))
-print(response)
+# response = respond(GetWindowText(GetForegroundWindow()))
+# print(response)
 
 # Variables
 messageDelay = 5000
-Encouragement = """I fucking hate gaming laptops."""
+productivity_check = "8301293"
 
 # End Program
 def getMeOut():
    exit(0)
 
 # Initiates talking when button is pressed
-def shoutingTime():
-    print(text_to_speech(Encouragement))
+def shoutingTime(message):
+    if message != productivity_check:
+        text_to_speech(message)
 
-    window = tk.Tk()
-    window.wm_attributes("-topmost",True)
-    window.wm_attributes('-alpha', 0.95)
-    window.config(borderwidth=0)
-    window.overrideredirect(1)
-    window.geometry("500x100+{}+{}".format(round(friend.pos_x),round(friend.pos_y)))
+        window = tk.Tk()
+        window.wm_attributes("-topmost",True)
+        window.wm_attributes('-alpha', 0.95)
+        window.config(borderwidth=0)
+        window.overrideredirect(1)
+        window.geometry("500x100+{}+{}".format(round(friend.pos_x),round(friend.pos_y)))
 
-    # Create text widget and specify size.
-    friendSays = Text(window, height = 7, width = 52)
-    friendSays.configure(font = ("Comic Sans MS", 14), wrap=WORD)
-    
-    # Friend chat window
-    chatTitle = Label(window, text = "Friend Says")
-    chatTitle.pack()
-    friendSays.pack()
-    friendSays.insert(tk.END, Encouragement)
-    friendSays.focus_force()
-    friendSays.after(messageDelay,window.destroy)
+        # Create text widget and specify size.
+        friendSays = Text(window, height = 7, width = 52)
+        friendSays.configure(font = ("Comic Sans MS", 14), wrap=WORD)
+        
+        # Friend chat window
+        chatTitle = Label(window, text = "Friend Says")
+        chatTitle.pack()
+        friendSays.pack()
+        friendSays.insert(tk.END, message)
+        friendSays.focus_force()
+        friendSays.after(messageDelay,window.destroy)
 
-    if (friend.facing == 0):
-        friend.sprite_index = "yap_l"
-    else:
-        friend.sprite_index = "yap_r"
+        if (friend.facing == 0):
+            friend.sprite_index = "yap_l"
+        else:
+            friend.sprite_index = "yap_r"
 
 
 
@@ -121,15 +122,17 @@ class Yallo(tk.Tk):
             self.facing = 1
             self.sprite_index = "walk_r"
 
-        self.after(600,self._stop_walking)
-        self.after(3000,self._reset_target_position)
+        self.after(6000,self._stop_walking)
+        self.after(30000,self._reset_target_position)
 
     counter = 0
     def _tick(self):   
         self.counter += 1
+        #print(self.counter)
         # Bad solution to the problem of timing, but I don't have time to redo the movement code
-        if (self.counter % 5000 == 0):
+        if (self.counter % 2000 == 0):
             print(GetWindowText(GetForegroundWindow()))
+            shoutingTime(respond(GetWindowText(GetForegroundWindow())))
 
 
 
@@ -139,7 +142,7 @@ class Yallo(tk.Tk):
             self.canvas.moveto(self.yallo,self.pos_x,self.pos_y)
         else:
             self._reset_target_position()
-        self.after(1, self._tick)
+        self.after(6, self._tick)
 
     def _stop_walking(self): 
         self.dir_x, self.dir_y = 0, 0
@@ -161,8 +164,8 @@ class Yallo(tk.Tk):
         Escape.place(x=20, y=10)
 
         # Temp button for testing chat functionality
-        T = Button(self.canvas, text ="Talk", command = shoutingTime)
-        T.place(x=10,y=100)
+        # T = Button(self.canvas, text ="Talk", command = shoutingTime)
+        # T.place(x=10,y=100)
 
         self.wm_attributes("-transparentcolor", "green")
     
