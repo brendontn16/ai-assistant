@@ -9,11 +9,42 @@ from math import sin, cos, pi
 sprite_width, sprite_height = 160, 160
 
 
+# Variables
+xOffset = 600
+yOffset = 600
+messageDelay = 5000
+Encouragement = """You're not being productive"""
+
+# End Program
 def getMeOut():
    exit()
     
+# Initiates talking when button is pressed
+def shoutingTime():
+    window = tk.Tk()
+    window.wm_attributes("-topmost",True)
+    window.wm_attributes('-alpha', 0.95)
+    window.config(borderwidth=0)
+    window.overrideredirect(1)
+    window.geometry("500x100+{}+{}".format(xOffset-210,yOffset-120))
+
+    # Create text widget and specify size.
+    friendSays = Text(window, height = 5, width = 52)
+    friendSays.configure(font = ("Comic Sans MS", 14, "bold"), wrap=WORD)
+    
+    # Friend chat window
+    chatTitle = Label(window, text = "Friend Says")
+    chatTitle.pack()
+    friendSays.pack()
+    friendSays.insert(tk.END, Encouragement)
+    friendSays.focus_force()
+    friendSays.after(messageDelay,window.destroy)
+
+
+# Friend overlay
 
 class Yallo(tk.Tk):
+    # Setup
     def __init__(self, *a, **kw):
         tk.Tk.__init__(self, *a, **kw)
 
@@ -101,12 +132,17 @@ class Yallo(tk.Tk):
         self.canvas = tk.Canvas(self, bg="green")
         self.canvas.pack(side="top", fill="both", expand=True)
         self.canvas.config(highlightthickness=0)
-
         self.yallo = self.canvas.create_image(self.pos_x, self.pos_y, image=self.sprites[self.sprite_index][0], anchor="nw")
         self.animate()
         
-        B = Button(self.canvas, text ="Escape", command = getMeOut)
-        B.place(x=20, y=10)
+
+        # Escape button
+        Escape = Button(self.canvas, text ="Escape", command = getMeOut)
+        Escape.place(x=20, y=10)
+
+        # Temp button for testing chat functionality
+        T = Button(self.canvas, text ="Talk", command = shoutingTime)
+        T.place(x=10,y=100)
 
         self.wm_attributes("-transparentcolor", "green")
     
