@@ -26,6 +26,8 @@ def getMeOut():
 
 # Initiates talking when button is pressed
 def shoutingTime():
+    print(text_to_speech(Encouragement))
+
     window = tk.Tk()
     window.wm_attributes("-topmost",True)
     window.wm_attributes('-alpha', 0.95)
@@ -34,8 +36,8 @@ def shoutingTime():
     window.geometry("500x100+{}+{}".format(round(friend.pos_x),round(friend.pos_y)))
 
     # Create text widget and specify size.
-    friendSays = Text(window, height = 5, width = 52)
-    friendSays.configure(font = ("Comic Sans MS", 14, "bold"), wrap=WORD)
+    friendSays = Text(window, height = 7, width = 52)
+    friendSays.configure(font = ("Comic Sans MS", 14), wrap=WORD)
     
     # Friend chat window
     chatTitle = Label(window, text = "Friend Says")
@@ -50,7 +52,6 @@ def shoutingTime():
     else:
         friend.sprite_index = "yap_r"
 
-    text_to_speech(Encouragement)
 
 
 # Friend overlay
